@@ -10,8 +10,8 @@ Anaconda - Python 3.7 , OpenCV.
 - Step4: Use Opening operation.
 - Step5: Use Closing Operation.
 ```
-Developed By: ROHIT JAIN D
-Register No: 212222230120
+Developed By: Mohan Raj
+Register No: 212221230065
 ```
 ### Program:
 - Importing the necessary packages.
@@ -23,11 +23,11 @@ Register No: 212222230120
   ```Python
   img=np.zeros((100,500),dtype='uint8')
   font=cv2.FONT_HERSHEY_PLAIN
-  cv2.putText(img,'ROHIT JAIN D 212222230120',(5,60),font,2,(255),5,cv2.LINE_AA)
+  cv2.putText(img,'Mohan Raj',(5,60),font,2,(255),5,cv2.LINE_AA)
   cv2.imshow("Original Image",img)
   cv2.waitKey(0)
   ```
-  <img height=10% width=80% src="https://github.com/ROHITJAIND/EX-11-OPENING-CLOSING-OPERATIONS/assets/118707073/f4ea3d7d-f985-42ef-aa17-0014c582eed2">
+![Screenshot 2023-10-14 225841](https://github.com/Mohanraj2004/OPENING--CLOSING/assets/132890483/0962e171-5fd4-44b8-957e-9f6f7269cfa7)
 
 - Create the structuring element.
   ```Python
@@ -39,7 +39,7 @@ Register No: 212222230120
   cv2.imshow("Opening Operation",imgO)
   cv2.waitKey(0)
   ```
-  <img height=10% width=80% src="https://github.com/ROHITJAIND/EX-11-OPENING-CLOSING-OPERATIONS/assets/118707073/5e2ede03-4a08-49e2-8c35-70b199094962">
+![Screenshot 2023-10-14 225936](https://github.com/Mohanraj2004/OPENING--CLOSING/assets/132890483/9ae82e46-96ba-45b2-86cc-d6b6d9737a32)
 
 - Use Closing Operation.
   ```Python
@@ -47,7 +47,7 @@ Register No: 212222230120
   cv2.imshow("Closing Operation",imgC)
   cv2.waitKey(0)
   ```
-  <img height=10% width=80% src="https://github.com/ROHITJAIND/EX-11-OPENING-CLOSING-OPERATIONS/assets/118707073/298b2514-9ba7-4e94-9873-b8be10a67194">
+![Screenshot 2023-10-14 230020](https://github.com/Mohanraj2004/OPENING--CLOSING/assets/132890483/d351b537-11c4-4cf4-b36a-6bd85701ad56)
 
 ### Result:
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
