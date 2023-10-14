@@ -10,8 +10,8 @@ Anaconda - Python 3.7 , OpenCV.
 - Step4: Use Opening operation.
 - Step5: Use Closing Operation.
 ```
-Developed By: Mohan Raj
-Register No: 212221230065
+# Developed By: Mohan Raj
+# Register No: 212221230065
 ```
 ### Program:
 - Importing the necessary packages.
